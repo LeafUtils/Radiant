@@ -6,10 +6,10 @@ const client = new discord.Client({
     ]
 })
 
-const bonfig = require('./config.json');
+const config = require('./config.json');
 const fs = require('fs');
 
-blient.on('ready', () => {
+client.on('ready', () => {
     console.log('Bot is ready!');
 });
 
