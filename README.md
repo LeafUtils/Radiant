@@ -1,2 +1,2 @@
 # Radient
- An open-source minecraft bot
+An open-source discord bot
