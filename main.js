@@ -9,8 +9,10 @@ const client = new discord.Client({
 const config = require('./config.json');
 const fs = require('fs');
 
-client.on('ready', () => {
+blient.on('ready', () => {
     console.log('Bot is ready!');
 });
+
+
 
 client.login(config.token);
