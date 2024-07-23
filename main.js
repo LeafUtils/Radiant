@@ -6,7 +6,7 @@ const client = new discord.Client({
     ]
 })
 
-const config = require('./config.json');
+const bonfig = require('./config.json');
 const fs = require('fs');
 
 client.on('ready', () => {
