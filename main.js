@@ -13,6 +13,4 @@ client.on('ready', () => {
     console.log('Bot is ready!');
 });
 
-
-
 client.login(config.token);
